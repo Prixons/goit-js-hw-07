@@ -12,11 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (emailValue === '' || passwordValue === '') {
       alert('All form fields must be filled in');
-    } else {
-      var formData = {
-        email: emailValue,
-        password: passwordValue.trim()
-      };
+    }
 
       console.log(formData);
 
