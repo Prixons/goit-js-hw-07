@@ -13,14 +13,10 @@ body {
   line-height: 1.5;
 }
 
-ul.gallery {
+.gallery {
     list-style-type: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.gallery-item {
-    margin: 10px;
 }
